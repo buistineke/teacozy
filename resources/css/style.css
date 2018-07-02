@@ -5,6 +5,7 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
+  text-align: center;
   opacity: 0.9;
 }
 
@@ -42,4 +43,32 @@ header {
 
 header nav {
   text-decoration: underline;
+  margin-right: 10px;
+}
+
+header nav a{
+  margin-left: 20px;
+}
+
+/* Main Container Styles */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Mission Styles */
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url('../../resources/images/img-mission-background.jpg');
+  padding-top: 70px;
+}
+
+.content {
+  display: block;
+  background-color: black;
+  width: 1200px;
+  padding: 5px;
 }
