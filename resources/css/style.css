@@ -9,6 +9,16 @@ body {
   opacity: 0.9;
 }
 
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  display: block;
+  font-weight: bold;
+}
+
 a {
   color: seashell;
   font-weight: normal;
@@ -57,18 +67,31 @@ header nav a{
   justify-content: center;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 1200px;
+  height: 130px;
+}
+
 /* Mission Styles */
 
-#mission {
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../resources/images/img-mission-background.jpg');
   height: 700px;
   width: 1200px;
-  background-image: url('../../resources/images/img-mission-background.jpg');
-  padding-top: 70px;
 }
 
 .content {
-  display: block;
-  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 1200px;
-  padding: 5px;
+  background-color: black;
 }
